@@ -1,5 +1,7 @@
 /*
 url: https://codeforces.com/contest/1996/problem/F
+solution:
+因为每次操作选取的数字都是最大的，所以可以二分查找最后一次选取的数字大小，如果队列中所有的数字经过操作后都小于或等于这个数字所需要的次数小于等于k，那么就可以再往下寻找。
 */
 #include <algorithm>
 #include <iostream>
