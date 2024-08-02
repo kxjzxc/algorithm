@@ -31,6 +31,7 @@ int main() {
       if (s[i + 1] == '(') l_r_num++;
     }
     int ans = 0;
+    while (!Q.empty()) Q.pop();
     for (int i = 0; i < n; i++) {
       if (s[i] == '(') Q.push(i);
       if (s[i] == ')') {
