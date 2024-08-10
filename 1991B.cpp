@@ -1,5 +1,5 @@
 /*
-url: https://codeforces.com/problemset/problem/1994/A
+url: https://codeforces.com/problemset/problem/1991/B
 solution:
 */
 #include <iostream>
